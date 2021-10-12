@@ -1,0 +1,96 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section.container{
+    width: 100%;
+    height: 700px;
+    /* background-color: aqua; */
+   
+}
+section.container div.content{
+    width:80%;
+    height: 100%;
+    margin: auto;
+    /* background-color:yellow;  */
+}
+section.container div.content div.top{
+    width:100%;
+    height: 20%;
+    /* background-color:greenyellow; */
+    text-align: center;
+
+}
+section.container div.content div.top h6.top_head{
+    color: #39b54a;
+    padding-top: 20px;
+    text-transform:uppercase;
+    word-spacing: 150%;
+    font-weight: 500;
+    
+}
+section.container div.content div.top p.top_cont{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+}
+section.container div.content div.line{
+    width:100%;
+    height: 2%;
+    padding-bottom: 5%;
+    /* background-color:red; */
+    margin: auto;
+}
+section.container div.content div.line div.line_1{
+    width:60%;
+     margin: auto;
+  
+    height: 2px;
+    line-height: 2px;
+   background-color:#757575;
+   opacity: 0.3;
+}
+section.container div.content div.info{
+    width:100%;
+    height: 70%;
+
+}
+section.container div.content div.info div.item{
+    width:45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 30%;
+    margin-bottom: 3.33%;
+    
+    float: left;
+
+}
+section.container div.content div.info div.item div.item_icon{
+  width:10%;
+  height: 100%;
+    text-align: center;
+   margin: auto;
+  float: left;
+
+}
+section.container div.content div.info div.item div.item_icon i.fa{
+   color: #39b54a;
+   padding-top: 6px;
+}
+section.container div.content div.info div.item div.item_info{
+    width:85%;
+  height: 100%;
+  float: left;
+  padding-left: 2%;
+  margin-right: 5%;
+}
+section.container div.content div.info div.item div.item_info h3.info_head{
+  padding: 0px 0 15px 0;
+font-weight: 600;
+line-height: 25px;
+}
+section.container div.content div.info div.item div.item_info p.info_cont{
+    color:#757575;
+}
